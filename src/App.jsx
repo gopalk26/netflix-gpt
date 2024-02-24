@@ -1,7 +1,5 @@
 
-
-
-
+import Body from './Components/Body';
 
 function App() {
   
@@ -9,9 +7,8 @@ function App() {
   return (
     <>
       <div>
-       
-            <h1 className="text-center text-rose-700  text-3xl"> hello world fvvdfbdnffbhrtfngrrhtjthrjftj</h1> 
-       
+          <Body/>
+     
       </div>
       
     </>
