@@ -4,7 +4,7 @@ import { background_url } from "../Utils/constants";
 import { checkValidation } from '../Utils/validation';
 import {  createUserWithEmailAndPassword , signInWithEmailAndPassword,updateProfile} from "firebase/auth";
 import {auth} from '../Utils/firebase';
-import { useNavigate } from "react-router-dom";
+
 import { useDispatch } from "react-redux";
 import { addUser } from "../Utils/userSlice";
 
@@ -16,7 +16,7 @@ const Login = () => {
     const emailRef = useRef(null);
      const passwordRef = useRef(null);
 
-    const naviGate = useNavigate();
+    
     const dispatch = useDispatch();
 
     const toggleSignForm = () => {
@@ -27,7 +27,7 @@ const Login = () => {
     const handleButtonClick = () => {
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-        const name =  nameRef.current.value;
+        // const name =  nameRef.current.value;
 
         // Client-side validation
         const validationMessage = checkValidation(email, password);
@@ -38,6 +38,7 @@ const Login = () => {
 
         if(!isSignIn){
             // sign up logic
+            const name =  nameRef.current.value;
 
            createUserWithEmailAndPassword(auth, email, password)
            .then((userCredential) => {
@@ -49,7 +50,7 @@ const Login = () => {
                 // Profile updated!
                 const {uid,email,displayName} = auth.currentUser;
              dispatch(addUser({uid:uid , email: email , displayName:displayName}))
-                naviGate("/browser");
+               
                   
               }).catch((error) => {
                 // An error occurred
@@ -76,7 +77,7 @@ const Login = () => {
               const user = userCredential.user;
 
               
-              naviGate("/browser");
+             
               // ...
             })
             .catch((error) => {
@@ -104,7 +105,7 @@ const Login = () => {
              <h1 className="font-bold text-3xl py-5 text-pink-700 font-sans">{isSignIn ? "Sign In" : "Sign Up"}</h1>
                
                 {
-                    !isSignIn && <input ref={nameRef} type="text" placeholder="Enter The Name" className="p-3 my-4 w-full font-sans rounded-lg border-2  border-rose-950 bg-transparent text-white focus:outline-none focus:border-gray-700" />
+                    !isSignIn && <input ref ={nameRef } type="text" placeholder="Enter The Name" className="p-3 my-4 w-full font-sans rounded-lg border-2  border-rose-950 bg-transparent text-white focus:outline-none focus:border-gray-700" />
                 }
                 <input ref={emailRef} type="text" 
                 placeholder="Enter The Email" 

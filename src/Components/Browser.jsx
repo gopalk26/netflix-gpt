@@ -1,10 +1,11 @@
 
-import BrowserHeader from "./BrowerHeader"
+
+import Header from "./Header";
 
 const Browser = () => {
   return (
     <div>
-      <BrowserHeader/>
+     <Header/>
     </div>
   )
 }
