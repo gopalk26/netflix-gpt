@@ -88,8 +88,16 @@ Screen Shots:
 ![SignUp](https://github.com/gopalk26/netflix-gpt/assets/117647502/c4f88849-2bae-4f78-a9fa-73791bac7645)
 
 ✅Browse Page:
+
 ![Browse](https://github.com/gopalk26/netflix-gpt/assets/117647502/c726bc3e-27c6-47c4-8d6e-87f5ad63dc65)
 
+✅GptSearchBar:
+
+![SerachBar](https://github.com/gopalk26/netflix-gpt/assets/117647502/04463130-8a34-47e5-b36b-ad01944c00cc)
+
+✅GptMovieRecommendations:
+
+![GptSearch](https://github.com/gopalk26/netflix-gpt/assets/117647502/ced62b1e-3fc6-432c-8509-dd9fc6f098ad)
 
 
 
