@@ -24,29 +24,13 @@ To get started with this project, follow these steps:
         🚀 cd my-react-app
 
 3. Install dependencies:
-      🚀 npm install
+
+          🚀 npm install
    
 4.Start the development server:
+         
          🚀npm run dev
 
-
-Project Structure:
-
-netflix-Gpt/
-│
-├── public/            # Public assets and index.html
-├── src/               # Source code
-│   ├── components/    # React components(e.g., Home, Signin, Signup, Browse)
-│   |
-│   ├── index.css/        # CSS styles
-│   ├── Utils/         # Utility functions
-│   ├── Hooks/         # Custom React hooks
-│   ├── App.js         # Main component
-│   └── main.js       # Entry point
-├── tailwind.config.js # Tailwind CSS configuration file
-├── .gitignore         # Git ignore file
-├── package.json       # Project dependencies and scripts
-└── README.md          # Project documentation
 
 
 
