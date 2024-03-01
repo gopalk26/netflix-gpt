@@ -1,14 +1,16 @@
 
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 
 # NetflixGpt  with React+vite and  Tailwind CSS
-...........................................................
 
 
 This is a React project NetflixGpt created with Vite and styled using Tailwind CSS. It features unique font styles, larger text sizes, and related stickers for a visually appealing experience.
 
 ## Getting Started
-........................................
+
 
 To get started with this project, follow these steps:
 
@@ -26,7 +28,7 @@ To get started with this project, follow these steps:
    
 4.Start the development server:
          🚀npm run dev
-................................................
+
 
 Project Structure:
 
@@ -46,10 +48,10 @@ netflix-Gpt/
 ├── package.json       # Project dependencies and scripts
 └── README.md          # Project documentation
 
-.............................................
+
 
 ## Features
-...........................................
+
 
 ✅Home Page (if user is not authorized)**: This page is displayed when the user is not signed in.
 
@@ -73,7 +75,7 @@ netflix-Gpt/
 
 ✅Search**: A search functionality allowing users to search for specific movies or shows.
 
-............................................................
+
 
 Available Scripts
 In the project directory, you can run:
@@ -85,17 +87,7 @@ In the project directory, you can run:
 
 ✅Styling with Tailwind CSS:
 This project uses Tailwind CSS for styling. Tailwind CSS is a utility-first CSS framework that allows you to build custom designs without having to leave your HTML. You can find Tailwind CSS classes being used throughout the project's components.
-.................................................................
 
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
 Contributing
