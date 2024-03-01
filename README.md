@@ -77,11 +77,15 @@ This project uses Tailwind CSS for styling. Tailwind CSS is a utility-first CSS 
 Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or create a pull request.
 
+Screen Shots:
+
+✅ LoginPage :
+
+![LoginPage](https://github.com/gopalk26/netflix-gpt/assets/117647502/7bd697cc-a174-473e-99fa-00d0b1aafb08)
 
 
 
 
-![Alt text](C:\Users\gopal\OneDrive\Pictures\Screenshots "Optional title")
 
 
 
