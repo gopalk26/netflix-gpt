@@ -61,7 +61,7 @@ To get started with this project, follow these steps:
 
 
 
-Available Scripts
+Available Scripts :
 In the project directory, you can run:
 
 ✅npm run dev: Start the development server.
@@ -69,7 +69,7 @@ In the project directory, you can run:
 
 
 
-✅Styling with Tailwind CSS:
+Styling with Tailwind CSS:
 This project uses Tailwind CSS for styling. Tailwind CSS is a utility-first CSS framework that allows you to build custom designs without having to leave your HTML. You can find Tailwind CSS classes being used throughout the project's components.
 
 
